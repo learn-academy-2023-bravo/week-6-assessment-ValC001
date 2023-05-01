@@ -10,7 +10,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Your answer: The foreign key will be called whatever you want it to be called & it would be added in the student model because each cohort should have many student but each student cannot have many cohorts. So to fix the mistake of not adding a FK you can do add_foreign_key which should add a foreign key.
 
-Researched answer:
+Researched answer:  First create a migration file before ussing add_foreign_key. The FK would still be assigned to student model.
 
 
 
@@ -68,8 +68,11 @@ Rails generate migrate: Creates a new file in db/migrate and allows you to modif
 Rails generate channel: creates a action cabel channel in apps/channel . What this command does is tht it creates a channel class that has methods that can for example handle subscription request and serve as broadcasting msgs to said subscribers
 
 Researched answer: 
+Rails generate scaffold : This  controller creates a basic skeleton for a web app. What I mean by that is that it creates a new controller, method and views.
 
+Rails generate controller : Creates a new controller as well as methods in the controller & views in files .
 
+Rails generate model: This just create a new model class with a class definition of 'app/models.example.rb' and a migration in 'db/migrate/*create_example.rb'
 
 
 
