@@ -140,3 +140,16 @@ action: "DELETE" location: /students/2
 
 
 5. As a developer, you are making an application to manage your to do list. Create 10 user stories that will help you get your application started. Read more about [user stories](https://www.atlassian.com/agile/project-management/user-stories).
+
+
+1. As a user I can add items to my to-do-list.
+2. As a user I can check off items that are done on my to-do-list
+3. As a user I can delete items off my to-do-list.
+4. As a user I can update items in my to-do-list
+5. As a user I create subcategories/lists in my to-do-list.
+6. As a user , everytime I update , delete, or add items to my list it takes me back to the landing page. 
+7. As a user, I can create multiple lists and have them be displayed on my landing page.
+8. As a user , every list that's displayed on the landing page is clickable and takes me to said list.
+9. As a user I can choose different templates for every to-do-list. ( background, style,color)
+10. As a user , I can delete or add lists with a button on the landing page.
+11. As a user there's a login page to login and see all my to-do-lists.
