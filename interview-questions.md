@@ -40,9 +40,9 @@ Researched answer:  First create a migration file before ussing add_foreign_key.
 
 2. Which RESTful routes must always be passed params? Why?
 
-Your answer:
+Your answer: Controller must always be used or is always used as its responsible for handling a request, such as going to the electronics category on Amazon. Action as well but this one represents specfic operations such as viewing a website or adding something to a cart whilst online shopping.
 
-Researched answer:
+Researched answer: Controller makes the model data available to the user to see as well as save or update what the user does to the model. Action allows you to choose which attributes should be used for updating in large quantites so it doesn't expose something that shouldn't be exposed. 
 
 
 
